@@ -36,7 +36,7 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        TabView {
+        TabView(selection: Binding.constant(3)) {
             
             Text("World Clock")
                 .tabItem {
