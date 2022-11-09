@@ -22,11 +22,11 @@ struct ContentView: View {
                     .foregroundColor(.white)
                 
                 HStack {
-                    CircleButtonView(buttoncolor: .gray, label: "Reset", labelColor: .white)
+                    CircleButtonView(buttoncolor: Color("Dark Grey"), label: "Reset", labelColor: .white)
                         
                     Spacer()
                     
-                    CircleButtonView(buttoncolor: .brown, label: "Start", labelColor:.green)
+                    CircleButtonView(buttoncolor: Color("Dark Green"), label: "Start", labelColor:.green)
                 }
             }
             .padding()

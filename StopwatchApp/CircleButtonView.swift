@@ -45,6 +45,6 @@ struct CircleButtonView: View {
 
 struct CircleButtonView_Previews: PreviewProvider {
     static var previews: some View {
-        CircleButtonView(buttoncolor: .gray, label: "Reset", labelColor: .white)
+        CircleButtonView(buttoncolor: Color("Dark Grey"), label: "Reset", labelColor: .white)
     }
 }
