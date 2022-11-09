@@ -11,6 +11,7 @@
 		F791C7E0291BEDED0055AF86 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F791C7DF291BEDED0055AF86 /* ContentView.swift */; };
 		F791C7E2291BEDF70055AF86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F791C7E1291BEDF70055AF86 /* Assets.xcassets */; };
 		F791C7E5291BEDF70055AF86 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F791C7E4291BEDF70055AF86 /* Preview Assets.xcassets */; };
+		F791C7EC291BF3650055AF86 /* CircleButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F791C7EB291BF3650055AF86 /* CircleButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		F791C7DF291BEDED0055AF86 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F791C7E1291BEDF70055AF86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F791C7E4291BEDF70055AF86 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F791C7EB291BF3650055AF86 /* CircleButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				F791C7DD291BEDED0055AF86 /* StopwatchAppApp.swift */,
 				F791C7DF291BEDED0055AF86 /* ContentView.swift */,
+				F791C7EB291BF3650055AF86 /* CircleButtonView.swift */,
 				F791C7E1291BEDF70055AF86 /* Assets.xcassets */,
 				F791C7E3291BEDF70055AF86 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F791C7EC291BF3650055AF86 /* CircleButtonView.swift in Sources */,
 				F791C7E0291BEDED0055AF86 /* ContentView.swift in Sources */,
 				F791C7DE291BEDED0055AF86 /* StopwatchAppApp.swift in Sources */,
 			);
