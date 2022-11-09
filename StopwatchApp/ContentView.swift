@@ -21,7 +21,13 @@ struct ContentView: View {
                     .font(Font.system(size: 90,weight: .thin))
                     .foregroundColor(.white)
                 
-                CircleButtonView()
+                HStack {
+                    CircleButtonView(buttoncolor: .gray, label: "Reset", labelColor: .white)
+                        
+                    Spacer()
+                    
+                    CircleButtonView(buttoncolor: .brown, label: "Start", labelColor:.green)
+                }
             }
             .padding()
         }
