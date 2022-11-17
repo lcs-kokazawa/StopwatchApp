@@ -26,7 +26,7 @@ struct ContentView: View {
                 
                 HStack {
                     CircleButtonView(buttoncolor: Color("Dark Grey"), label: "Reset", labelColor: .white)
-                        
+                    
                     Spacer()
                     
                     CircleButtonView(buttoncolor: Color("Dark Green"), label: "Start", labelColor:.green)
@@ -60,40 +60,47 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-    TabView(selection: Binding.constant(3)) {
+        TabView(selection: Binding.constant(3)) {
             
             Text("World Clock")
                 .tabItem {
                     Image(systemName: "globe")
                     Text("World Clock")
                 }
-                    
+                .tag(1)
+            
             Text("Alarm")
                 .tabItem{
                     Image(systemName: "alarm.fill")
                     Text("Alarm")
                     
                 }
+                .tag(2)
+            
             ContentView()
                 .tabItem {
                     Image(systemName: "stopwatch.fill")
                     Text("Stopwatch")
                 }
+                .tag(3)
+            
             
             Text("Timer")
                 .tabItem {
                     Image(systemName: "timer")
                     Text("Timer")
                 }
-            }
-                 // Change the accent color for the currently active tab item
+                .tag(4)
+            
+        }
+        // Change the accent color for the currently active tab item
         .accentColor(.orange)
         // Ensure tab items that are not active remain visible
         .preferredColorScheme(.dark)
-        }
+    }
 }
-        
-    
+
+
 
 
 
